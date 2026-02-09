@@ -1,0 +1,18 @@
+branch rule has changed
+
+
+Require status checks to pass before merging
+Choose which status checks must pass before branches can be merged into a branch that matches this rule. When enabled, commits must first be pushed to another branch, then merged or pushed directly to a branch that matches this rule after status checks have passed.
+
+Require branches to be up to date before merging
+This ensures pull requests targeting a matching branch have been tested with the latest code. This setting will not take effect unless at least one status check is enabled (see below).
+
+
+Earlier:
+
+Protect matching branches
+Require a pull request before merging
+When enabled, all commits must be made to a non-protected branch and submitted via a pull request before they can be merged into a branch that matches this rule.
+
+Require approvals
+When enabled, pull requests targeting a matching branch require a number of approvals and no changes requested before they can be merged.
